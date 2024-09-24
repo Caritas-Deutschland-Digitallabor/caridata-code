@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Beratung nach Geschlecht",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "geschl",
+    "grouping_variable_2_id": null,
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": "1",
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "2.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung (Anfang)",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym1",
+    "grouping_variable_2_id": null,
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "3.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung (Ende)",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym2",
+    "grouping_variable_2_id": null,
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "4.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung (Anfang) nach gesetzlichem Rahmen",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym1",
+    "grouping_variable_2_id": "gesrahm",
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "5.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung - Vertrauliche Geburt Stufe 1",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym1",
+    "grouping_variable_2_id": "vertrgeb0",
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "6.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung - Vertrauliche Geburt Stufe 2",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym1",
+    "grouping_variable_2_id": "vertrgeb2",
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "7.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Anonyme Beratung - Vertrauliche Geburt Ausgang",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "anonym1",
+    "grouping_variable_2_id": "vertrgeb3",
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "8.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Digitale Beratung",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "online1",
+    "grouping_variable_2_id": "online2",
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "9.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Beratung insgesamt",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": null,
+    "grouping_variable_2_id": null,
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.0",
+    "schema_id": "628bc7ff-55ce-4fb8-a7c8-4c882f3a1488",
+    "name": "Nationalität der Beratenen",
+    "description_aggregation": null,
+    "description_scheme": null,
+    "aggregation_variable_id": "fallnr_sbkern1",
+    "grouping_variable_1_id": "nation",
+    "grouping_variable_2_id": null,
+    "is_distinct": true,
+    "aggregation_type": "COUNT",
+    "source": "sbkern1",
+    "filter": {
+      "operator": null,
+      "conditions": [
+        {
+          "key": "betrnr",
+          "value": 1,
+          "condition": "="
+        }
+      ]
+    }
+  }
+]

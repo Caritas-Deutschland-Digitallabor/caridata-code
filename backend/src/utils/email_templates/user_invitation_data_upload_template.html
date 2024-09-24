@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Roboto, sans-serif;
+      background-color: #fff;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #333;
+    }
+    .header, .divider, .content, .button {
+      text-align: center;
+      padding: 10px 20px;
+    }
+    .header {
+      font-size: 25px;
+      padding-top: 10px;
+    }
+    .divider {
+      border-bottom: 1px solid #dedede;
+      margin: 0 0;
+      padding: 0%;
+    }
+    .content p {
+      font-size: 17px;
+      line-height: 1.8;
+      margin: 10px 0;
+    }
+    .button a {
+      background-color: #000;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-size: 17px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header" style="color: #000;">CariData</div>
+    <div class="divider"></div>
+    <div class="content">
+      <p style="font-size: 30px;">Einladung zum Upload</p>
+      <p style="word-break: break-word;">Sie wurden eingeladen die Daten aus Ihrem Beratungsstellen-System der Organisation {{ organisation_name }} für das vergangene Jahr bis zum {{ expiration_date }} zu exportieren und hochzuladen.</p>
+      <p style="word-break: break-word;">Das System erstellt eine Statistik. Dabei werden die Daten noch auf Ihrem Gerät anonymisiert und zusammengefasst.</p>
+      <p style="word-break: break-word;">Die zusammengefassten Daten werden verschlüsselt an das CariData-Team übermittelt und für die Jahresstatistik verwendet.</p>
+    </div>
+    <div class="button">
+      <a href="{{ magic_link }}"><strong>ZUM UPLOAD</strong></a>
+    </div>
+  </div>
+</body>

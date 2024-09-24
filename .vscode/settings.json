@@ -1,0 +1,23 @@
+{
+  "cSpell.words": [
+    "sbker",
+    "sbkern",
+    "sbkont",
+    "stelle",
+    "sbveran",
+  ],
+  "cSpell.language": "en,de-DE",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.rulers": [
+      100
+    ]
+  },
+  "python.defaultInterpreterPath": "./backend/.venv/bin/python3.11",
+  "extensions.ignoreRecommendations": true,
+}

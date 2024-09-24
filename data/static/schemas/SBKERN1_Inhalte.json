@@ -1,0 +1,3669 @@
+[
+    {
+        "position": 1,
+        "variable_name": "tsnr",
+        "variable_text": "Teilstellennummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 2,
+        "variable_name": "fallnr",
+        "variable_text": "Fallnummer",
+        "value_type": "string",
+        "value_from": "1",
+        "value_to": "99999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 3,
+        "variable_name": "lzrnr",
+        "variable_text": "Leistungszeitrahmen - Nummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "5",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 4,
+        "variable_name": "lzrdat",
+        "variable_text": "Leistungszeitrahmen - Datum des Erstkontakts",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 5,
+        "variable_name": "betrnr",
+        "variable_text": "Beratungsepisodennummer",
+        "value_type": "string",
+        "value_from": "1",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 6,
+        "variable_name": "anonym1",
+        "variable_text": "Anonyme Beratung bei Beratungsbeginn",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 7,
+        "variable_name": "anonym2",
+        "variable_text": "Anonyme Beratung bei Beratungsende",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 8,
+        "variable_name": "betbeg",
+        "variable_text": "Beratungsbeginn",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 9,
+        "variable_name": "betend",
+        "variable_text": "Beratungsende",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 10,
+        "variable_name": "geschl",
+        "variable_text": "Geschlecht",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "m\u00e4nnlich"
+            },
+            {
+                "value": "2",
+                "text": "weiblich"
+            },
+            {
+                "value": "3",
+                "text": "ohne Angabe (unbestimmt)"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 11,
+        "variable_name": "alter",
+        "variable_text": "Alter bei Beratungsbeginn",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 12,
+        "variable_name": "nation",
+        "variable_text": "Nationalit\u00e4t",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "deutsch"
+            },
+            {
+                "value": "2",
+                "text": "t\u00fcrkisch"
+            },
+            {
+                "value": "3",
+                "text": "EU-Staaten"
+            },
+            {
+                "value": "4",
+                "text": "osteurop\u00e4ische Staaten (ohne EU)"
+            },
+            {
+                "value": "5",
+                "text": "restliche europ\u00e4ische Staaten"
+            },
+            {
+                "value": "6",
+                "text": "nicht europ\u00e4isches Ausland"
+            },
+            {
+                "value": "7",
+                "text": "staatenlos"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 13,
+        "variable_name": "inform",
+        "variable_text": "Zugangswege",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Klient/in war bereits in Beratungsstelle"
+            },
+            {
+                "value": "2",
+                "text": "\u00c4rztliche Praxis/Krankenhaus"
+            },
+            {
+                "value": "3",
+                "text": "Angeh\u00f6rige, Freunde, Bekannte"
+            },
+            {
+                "value": "4",
+                "text": "Beh\u00f6rden"
+            },
+            {
+                "value": "5",
+                "text": "Beratungsstelle nach \u00a7 219"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Beratungsstelle und -dienst"
+            },
+            {
+                "value": "7",
+                "text": "Kontaktperson aus kirchlichem Bereich"
+            },
+            {
+                "value": "8",
+                "text": "Ver\u00f6ffentlichungen"
+            },
+            {
+                "value": "9",
+                "text": "Internet"
+            },
+            {
+                "value": "10",
+                "text": "Sonstige"
+            },
+            {
+                "value": "11",
+                "text": "Klientin war bereits in Beratung zur vertraulichen Geburt"
+            },
+            {
+                "value": "12",
+                "text": "(Familien)Hebammen"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 14,
+        "variable_name": "gesrahm",
+        "variable_text": "Gesetzlicher Rahmen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "in Verbindung mit Schwangerschaft (\u00a7 2 Abs. 1,2)"
+            },
+            {
+                "value": "2",
+                "text": "unabh\u00e4ngig von Schwangerschaft (\u00a7 2 Abs. 1,2)"
+            },
+            {
+                "value": "3",
+                "text": "im existenziellen Schwangerschaftskonflikt (\u00a7 5)"
+            },
+            {
+                "value": "4",
+                "text": "nach Schwangerschaftsabbruch (\u00a7 2 Abs. 3)"
+            },
+            {
+                "value": "5",
+                "text": "nach Geburt des Kindes (\u00a7 2 Abs. 3)"
+            },
+            {
+                "value": "6",
+                "text": "Aufkl\u00e4rung/Beratung in besonderen F\u00e4llen (\u00a7 2a)"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 15,
+        "variable_name": "famsta",
+        "variable_text": "Familienstand (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "ledig"
+            },
+            {
+                "value": "2",
+                "text": "verheiratet, zusammenlebend"
+            },
+            {
+                "value": "3",
+                "text": "verheiratet, getrennt lebend"
+            },
+            {
+                "value": "4",
+                "text": "eingetragene Lebenspartnerschaft"
+            },
+            {
+                "value": "5",
+                "text": "geschieden"
+            },
+            {
+                "value": "6",
+                "text": "verwitwet"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 16,
+        "variable_name": "parbeg",
+        "variable_text": "Partnerbeziehung (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 17,
+        "variable_name": "allein",
+        "variable_text": "Alleinerziehend",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 18,
+        "variable_name": "kinder",
+        "variable_text": "Kinder im Haushalt",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "20",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 19,
+        "variable_name": "kinalte1",
+        "variable_text": "Alter 1.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 20,
+        "variable_name": "kinalte2",
+        "variable_text": "Alter 2.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 21,
+        "variable_name": "kinalte3",
+        "variable_text": "Alter 3.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 22,
+        "variable_name": "kinalte4",
+        "variable_text": "Alter 4.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 23,
+        "variable_name": "kinalte5",
+        "variable_text": "Alter 5.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 24,
+        "variable_name": "kinalte6",
+        "variable_text": "Alter 6.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 25,
+        "variable_name": "kinalte7",
+        "variable_text": "Alter 7.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 26,
+        "variable_name": "kinalte8",
+        "variable_text": "Alter 8.Kind",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "98",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "99",
+        "source": "sbkern1"
+    },
+    {
+        "position": 27,
+        "variable_name": "migration",
+        "variable_text": "Deutsche mit Migrationshintergrund",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 28,
+        "variable_name": "aufent",
+        "variable_text": "Aufenthaltsrechtlicher Status",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Freiz\u00fcgigkeitsberechtigung (EU-B\u00fcrger)"
+            },
+            {
+                "value": "2",
+                "text": "Niederlassungserlaubnis(=unbefristet)"
+            },
+            {
+                "value": "3",
+                "text": "Aufenthaltserlaubnis(=befristet)"
+            },
+            {
+                "value": "4",
+                "text": "Aufenthaltsgestattung"
+            },
+            {
+                "value": "5",
+                "text": "Duldung"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Aufenthaltsformen bzw. nicht ermittelbar"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 29,
+        "variable_name": "religion",
+        "variable_text": "Konfession/Religion",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "katholisch"
+            },
+            {
+                "value": "2",
+                "text": "evangelisch"
+            },
+            {
+                "value": "3",
+                "text": "islamisch"
+            },
+            {
+                "value": "4",
+                "text": "andere"
+            },
+            {
+                "value": "5",
+                "text": "konfessionslos"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 30,
+        "variable_name": "schwanger",
+        "variable_text": "Schwangerschaft",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 31,
+        "variable_name": "swochbeg",
+        "variable_text": "Schwangerschaftswoche (bei Beratungsbeginn)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "45",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0  -  nur f\u00fcr Schwangere",
+        "source": "sbkern1"
+    },
+    {
+        "position": 32,
+        "variable_name": "ausgang",
+        "variable_text": "Ausgang/Stand der Schwangerschaft (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "noch schwanger"
+            },
+            {
+                "value": "2",
+                "text": "Kind geboren"
+            },
+            {
+                "value": "3",
+                "text": "Fehlgeburt/Totgeburt"
+            },
+            {
+                "value": "4",
+                "text": "Schwangerschaftsabbruch"
+            },
+            {
+                "value": "5",
+                "text": "Ausgang nicht bekannt"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 33,
+        "variable_name": "vertrgeb0",
+        "variable_text": "Vertrauliche Geburt (Stufe 1) - Beratung nach \u00a7 2 Absatz 4 SchKG",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "False",
+        "source": "sbkern1"
+    },
+    {
+        "position": 34,
+        "variable_name": "vertrgeb1",
+        "variable_text": "Vertrauliche Geburt (Stufe 2) - Beratung ist erfolgt in",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "nan"
+            },
+            {
+                "value": "1",
+                "text": "Stufe 1 und 2"
+            },
+            {
+                "value": "2",
+                "text": "Stufe 2 (ohne Stufe 1)"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 35,
+        "variable_name": "vertrgeb2",
+        "variable_text": "Vertrauliche Geburt (Stufe 2) - Einleitung des Verfahrens nach \u00a7 26 SchKG",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "False",
+        "source": "sbkern1"
+    },
+    {
+        "position": 36,
+        "variable_name": "vertrgeb3",
+        "variable_text": "Vertrauliche Geburt (Stufe 2) - Ausgang des Verfahrens",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Unterrichtung des Bundesamts nach \u00a7 27"
+            },
+            {
+                "value": "2",
+                "text": "Anonyme Geburt"
+            },
+            {
+                "value": "3",
+                "text": "Beratung abgebrochen"
+            },
+            {
+                "value": "4",
+                "text": "Annahme des Kindes"
+            },
+            {
+                "value": "5",
+                "text": "Regul\u00e4re Adoption"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 37,
+        "variable_name": "beraus",
+        "variable_text": "Berufsausbildung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "kein Berufsabschluss"
+            },
+            {
+                "value": "2",
+                "text": "abgeschlossene Berufsausbildung"
+            },
+            {
+                "value": "3",
+                "text": "in Schul- oder Berufsausbildung"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 38,
+        "variable_name": "erwklbeg",
+        "variable_text": "Erwerbs-/Berufsstatus Klient/in (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Auszubildende/Auszubildender"
+            },
+            {
+                "value": "2",
+                "text": "Arbeiter/Arbeiterin"
+            },
+            {
+                "value": "3",
+                "text": "Angestellte/Angestellter"
+            },
+            {
+                "value": "4",
+                "text": "Beamtin/Beamter"
+            },
+            {
+                "value": "5",
+                "text": "Selbst\u00e4ndige/r, Freiberufler/in"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Erwerbsperson"
+            },
+            {
+                "value": "7",
+                "text": "Sch\u00fcler/Sch\u00fclerin, Student/Studentin"
+            },
+            {
+                "value": "8",
+                "text": "Hausfrau/Hausmann"
+            },
+            {
+                "value": "9",
+                "text": "Rentnerin/Rentner"
+            },
+            {
+                "value": "10",
+                "text": "sonstige Nichterwerbspersonen"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 39,
+        "variable_name": "besklbeg",
+        "variable_text": "Besch\u00e4ftigungsverh\u00e4ltnis Klient/in (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Vollzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "2",
+                "text": "Teilzeitbesch\u00e4ftigung (ohne Elternzeit)"
+            },
+            {
+                "value": "3",
+                "text": "besch\u00e4ftigungslos mit Arbeitsverpflichtung"
+            },
+            {
+                "value": "4",
+                "text": "Elternzeit ohne Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "5",
+                "text": "Elternzeit mit Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "6",
+                "text": "besch\u00e4ftigungslos ohne Arbeitsverpflichtung"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 40,
+        "variable_name": "eksklb01",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 41,
+        "variable_name": "eksklb02",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 42,
+        "variable_name": "eksklb03",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Arbeitslosengeld I",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 43,
+        "variable_name": "eksklb04",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Leistungen nach B\u00fcrgergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 44,
+        "variable_name": "eksklb05",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Leistungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 45,
+        "variable_name": "eksklb06",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Leistungen nach AsylbLG",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 46,
+        "variable_name": "eksklb07",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Leistungen nach SGB XII",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 47,
+        "variable_name": "eksklb08",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Wohngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 48,
+        "variable_name": "eksklb09",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Kindergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 49,
+        "variable_name": "eksklb10",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Kinderzuschlag",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 50,
+        "variable_name": "eksklb11",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Betreuungsgeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 51,
+        "variable_name": "eksklb12",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Elterngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 52,
+        "variable_name": "eksklb13",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Rente/Pension",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 53,
+        "variable_name": "eksklb14",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Baf\u00f6G/Stipendien",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 54,
+        "variable_name": "eksklb15",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Unterhaltsleistungen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 55,
+        "variable_name": "eksklb16",
+        "variable_text": "Einkommensart Klient/in (Beginn) - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 56,
+        "variable_name": "eksklb17",
+        "variable_text": "Einkommensart Klient/in (Beginn) - sonstige Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 57,
+        "variable_name": "eksklb18",
+        "variable_text": "Einkommensart Klient/in (Beginn) - keine eigenen Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 58,
+        "variable_name": "ekspab01",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 59,
+        "variable_name": "ekspab02",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 60,
+        "variable_name": "ekspab03",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Arbeitslosengeld I",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 61,
+        "variable_name": "ekspab04",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Leistungen nach B\u00fcrgergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 62,
+        "variable_name": "ekspab05",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Leistungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 63,
+        "variable_name": "ekspab06",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Leistungen nach AsylbLG",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 64,
+        "variable_name": "ekspab07",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Leistungen nach SGB XII",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 65,
+        "variable_name": "ekspab08",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Wohngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 66,
+        "variable_name": "ekspab09",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Kindergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 67,
+        "variable_name": "ekspab10",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Kinderzuschlag",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 68,
+        "variable_name": "ekspab11",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Betreuungsgeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 69,
+        "variable_name": "ekspab12",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Elterngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 70,
+        "variable_name": "ekspab13",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Rente/Pension",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 71,
+        "variable_name": "ekspab14",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Baf\u00f6G/Stipendien",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 72,
+        "variable_name": "ekspab15",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Unterhaltsleistungen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 73,
+        "variable_name": "ekspab16",
+        "variable_text": "Einkommensart Partner/in (Beginn) - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 74,
+        "variable_name": "ekspab17",
+        "variable_text": "Einkommensart Partner/in (Beginn) - sonstige Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 75,
+        "variable_name": "ekspab18",
+        "variable_text": "Einkommensart Partner/in (Beginn) - keine eigenen Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 76,
+        "variable_name": "progen01",
+        "variable_text": "Problemstellungen - Angst vor Verantwortung / Zukunftsangst",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 77,
+        "variable_name": "progen02",
+        "variable_text": "Problemstellungen - Alter",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 78,
+        "variable_name": "progen03",
+        "variable_text": "Problemstellungen - Nichtehelichkeit, Au\u00dferehelichkeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 79,
+        "variable_name": "progen04",
+        "variable_text": "Problemstellungen - Unerf\u00fcllter Kinderwunsch",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 80,
+        "variable_name": "progen05",
+        "variable_text": "Problemstellungen - Situation als Alleinerziehende/r",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 81,
+        "variable_name": "progen06",
+        "variable_text": "Problemstellungen - Rolle / Selbstverst\u00e4ndnis als Mutter / Vater",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 82,
+        "variable_name": "progen07",
+        "variable_text": "Problemstellungen - Werte- / Sinn- und religi\u00f6se Fragen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 83,
+        "variable_name": "progen08",
+        "variable_text": "Problemstellungen - Kind nicht erw\u00fcnscht",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 84,
+        "variable_name": "progen09",
+        "variable_text": "Problemstellungen - Kind zur Zeit nicht erw\u00fcnscht",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 85,
+        "variable_name": "progen10",
+        "variable_text": "Problemstellungen - Im Kontext von Pr\u00e4nataldiagnostik",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 86,
+        "variable_name": "progen11",
+        "variable_text": "Problemstellungen - Behindertes Kind in der Familie",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 87,
+        "variable_name": "progen12",
+        "variable_text": "Problemstellungen - Gesundheitliche Situation",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 88,
+        "variable_name": "progen13",
+        "variable_text": "Problemstellungen - Gewalterfahrung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 89,
+        "variable_name": "progen14",
+        "variable_text": "Problemstellungen - physische \u2013 psychische Belastung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 90,
+        "variable_name": "progen15",
+        "variable_text": "Problemstellungen - Mehrlingsschwangerschaft",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 91,
+        "variable_name": "progen16",
+        "variable_text": "Problemstellungen - Probleme nach Schwangerschaftsabbruch",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 92,
+        "variable_name": "progen17",
+        "variable_text": "Problemstellungen - Probleme nach Fehl- und Totgeburt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 93,
+        "variable_name": "progen18",
+        "variable_text": "Problemstellungen - Fragen zu Vorsorge /Schwangerschaft / Geburt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 94,
+        "variable_name": "progen19",
+        "variable_text": "Problemstellungen - Probleme in der Partnerbeziehung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 95,
+        "variable_name": "progen20",
+        "variable_text": "Problemstellungen - Dr\u00e4ngen zum Abbruch durch Partner",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 96,
+        "variable_name": "progen21",
+        "variable_text": "Problemstellungen - Familienplanung / Empf\u00e4ngnisregelung / Verh\u00fctung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 97,
+        "variable_name": "progen22",
+        "variable_text": "Problemstellungen - Sexualit\u00e4t",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 98,
+        "variable_name": "progen23",
+        "variable_text": "Problemstellungen - Trennung / Verlassen werden",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 99,
+        "variable_name": "progen24",
+        "variable_text": "Problemstellungen - \u00dcbergang zur Elternschaft",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 100,
+        "variable_name": "progen25",
+        "variable_text": "Problemstellungen - Probleme in der Beziehung zu den Eltern",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 101,
+        "variable_name": "progen26",
+        "variable_text": "Problemstellungen - Dr\u00e4ngen zum Abbruch durch Familie",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 102,
+        "variable_name": "progen27",
+        "variable_text": "Problemstellungen - Erziehungssituation",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 103,
+        "variable_name": "progen28",
+        "variable_text": "Problemstellungen - Fehlende Unterst\u00fctzung durch soziales Umfeld",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 104,
+        "variable_name": "progen29",
+        "variable_text": "Problemstellungen - Berufs- / Ausbildungssituation",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 105,
+        "variable_name": "progen30",
+        "variable_text": "Problemstellungen - Arbeitslosigkeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 106,
+        "variable_name": "progen31",
+        "variable_text": "Problemstellungen - Vereinbarung von Familie und Beruf",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 107,
+        "variable_name": "progen32",
+        "variable_text": "Problemstellungen - Sorge um Kinderbetreuung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 108,
+        "variable_name": "progen33",
+        "variable_text": "Problemstellungen - Finanzielle Situation",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 109,
+        "variable_name": "progen34",
+        "variable_text": "Problemstellungen - \u00dcberschuldung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 110,
+        "variable_name": "progen35",
+        "variable_text": "Problemstellungen - Fragen zu sozialrechtlichen Anspr\u00fcchen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 111,
+        "variable_name": "progen36",
+        "variable_text": "Problemstellungen - Wohnungssituation allgemein",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 112,
+        "variable_name": "progen37",
+        "variable_text": "Problemstellungen - Wohnungssuche",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 113,
+        "variable_name": "progen38",
+        "variable_text": "Problemstellungen - Fehlende Krankenversicherung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 114,
+        "variable_name": "progen39",
+        "variable_text": "Problemstellungen - Rechtliche Fragen allgemein",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 115,
+        "variable_name": "progen40",
+        "variable_text": "Problemstellungen - Adoption",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 116,
+        "variable_name": "progen41",
+        "variable_text": "Problemstellungen - Probleme als Migrant/in, Asylbewerber/in",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 117,
+        "variable_name": "progen42",
+        "variable_text": "Problemstellungen - Illegaler Aufenthalt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 118,
+        "variable_name": "progen43",
+        "variable_text": "Problemstellungen - Fehlende Sprachkenntnisse",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 119,
+        "variable_name": "progen44",
+        "variable_text": "Problemstellungen - Sonstige",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 120,
+        "variable_name": "berfor01",
+        "variable_text": "Beratungsmethode - Einzelberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 121,
+        "variable_name": "berfor02",
+        "variable_text": "Beratungsmethode - Paarberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 122,
+        "variable_name": "berfor03",
+        "variable_text": "Beratungsmethode - Krisenintervention",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 123,
+        "variable_name": "berfor04",
+        "variable_text": "Beratungsmethode - sonstige Beratungsmethode",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 124,
+        "variable_name": "hilfe01",
+        "variable_text": "Information / Konkrete Hilfe bei - Beh\u00f6rdenkontakten",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 125,
+        "variable_name": "hilfe02",
+        "variable_text": "Information / Konkrete Hilfe bei - Wohnraumbeschaffung/-sicherung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 126,
+        "variable_name": "hilfe03",
+        "variable_text": "Information / Konkrete Hilfe bei - Schul-/Berufsausbildung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 127,
+        "variable_name": "hilfe04",
+        "variable_text": "Information / Konkrete Hilfe bei - Vermittlung von Sachleistungen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 128,
+        "variable_name": "hilfe05",
+        "variable_text": "Information / Konkrete Hilfe bei - Arbeitsplatzproblemen/-suche",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 129,
+        "variable_name": "hilfe06",
+        "variable_text": "Information / Konkrete Hilfe bei - Durchsetzung Rechtsanspr\u00fcche",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 130,
+        "variable_name": "hilfe07",
+        "variable_text": "Information / Konkrete Hilfe bei - Sonstige Hilfe/n",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 131,
+        "variable_name": "hilfe08",
+        "variable_text": "Information / Konkrete Hilfe bei - Informationsvermittlung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 132,
+        "variable_name": "hilfe09",
+        "variable_text": "Information / Konkrete Hilfe bei - Fr\u00fche Hilfen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 133,
+        "variable_name": "antrag1",
+        "variable_text": "Beantragung von Mitteln - aus Bundesstiftung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 134,
+        "variable_name": "antrag2",
+        "variable_text": "Beantragung von Mitteln - aus Kommunalem Fonds",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 135,
+        "variable_name": "antrag3",
+        "variable_text": "Beantragung von Mitteln - aus Bisch\u00f6flichem Fonds",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 136,
+        "variable_name": "antrag4",
+        "variable_text": "Beantragung von Mitteln - aus Spenden",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 137,
+        "variable_name": "antrag5",
+        "variable_text": "Beantragung von Mitteln - aus sonstigen Quellen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 138,
+        "variable_name": "antrag6",
+        "variable_text": "Beantragung von Mitteln - aus spezifischer Landesstiftung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "beantragt"
+            },
+            {
+                "value": "3",
+                "text": "bewilligt"
+            },
+            {
+                "value": "4",
+                "text": "abgelehnt"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 139,
+        "variable_name": "antrjahr1",
+        "variable_text": "Beantragung von Mitteln - aus Bundes-/Landesstiftung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 140,
+        "variable_name": "antrjahr2",
+        "variable_text": "Beantragung von Mitteln - aus Kommunalem Fonds",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 141,
+        "variable_name": "antrjahr3",
+        "variable_text": "Beantragung von Mitteln - aus Bisch\u00f6flichem Fonds",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 142,
+        "variable_name": "antrjahr4",
+        "variable_text": "Beantragung von Mitteln - aus Spenden",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 143,
+        "variable_name": "antrjahr5",
+        "variable_text": "Beantragung von Mitteln - aus sonstigen Quellen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 144,
+        "variable_name": "antrjahr6",
+        "variable_text": "Beantragung von Mitteln - aus spezifischer Landesstiftung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 145,
+        "variable_name": "koop01",
+        "variable_text": "Kooperation mit - Fachteammitglieder",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 146,
+        "variable_name": "koop02",
+        "variable_text": "Kooperation mit - \u00c4rztliche/Psychotherapeutische Praxis",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 147,
+        "variable_name": "koop03",
+        "variable_text": "Kooperation mit - Behindertenhilfe",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 148,
+        "variable_name": "koop04",
+        "variable_text": "Kooperation mit - Hebammen/Geburtsvorbereitung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 149,
+        "variable_name": "koop05",
+        "variable_text": "Kooperation mit - Krankenhaus/Fachklinik",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 150,
+        "variable_name": "koop06",
+        "variable_text": "Kooperation mit - Hilfen zur Erziehung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 151,
+        "variable_name": "koop07",
+        "variable_text": "Kooperation mit - Ehe-/Familien-/Lebensberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 152,
+        "variable_name": "koop08",
+        "variable_text": "Kooperation mit - Migrationsdienst",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 153,
+        "variable_name": "koop09",
+        "variable_text": "Kooperation mit - Allgemeine Sozialberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 154,
+        "variable_name": "koop10",
+        "variable_text": "Kooperation mit - Schuldnerberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 155,
+        "variable_name": "koop11",
+        "variable_text": "Kooperation mit - Frauenhaus",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 156,
+        "variable_name": "koop12",
+        "variable_text": "Kooperation mit - Kinderbetreuung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 157,
+        "variable_name": "koop13",
+        "variable_text": "Kooperation mit - Adoptionsvermittlung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 158,
+        "variable_name": "koop14",
+        "variable_text": "Kooperation mit - Familienpflege, hauswirtschaftliche Hilfen, SPFH",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 159,
+        "variable_name": "koop15",
+        "variable_text": "Kooperation mit - Ehrenamtliche / Freiwilligenarbeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 160,
+        "variable_name": "koop16",
+        "variable_text": "Kooperation mit - Pfarrgemeinde",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 161,
+        "variable_name": "koop17",
+        "variable_text": "Kooperation mit - Gesundheitsamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 162,
+        "variable_name": "koop18",
+        "variable_text": "Kooperation mit - Jugendamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 163,
+        "variable_name": "koop19",
+        "variable_text": "Kooperation mit - Agentur f\u00fcr Arbeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 164,
+        "variable_name": "koop20",
+        "variable_text": "Kooperation mit - Jobcenter / ARGE",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 165,
+        "variable_name": "koop21",
+        "variable_text": "Kooperation mit - Sozialamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 166,
+        "variable_name": "koop22",
+        "variable_text": "Kooperation mit - Wohnungsamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 167,
+        "variable_name": "koop23",
+        "variable_text": "Kooperation mit - Selbsthilfe/Selbstorgansierte Gruppen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 168,
+        "variable_name": "koop24",
+        "variable_text": "Kooperation mit - Andere Schwangerschaftsberatungsstelle",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 169,
+        "variable_name": "koop25",
+        "variable_text": "Kooperation mit - Andere/r Fachdienst/e",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 170,
+        "variable_name": "koop26",
+        "variable_text": "Kooperation mit - Familienhebammen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 171,
+        "variable_name": "koop27",
+        "variable_text": "Kooperation mit - Angebote Fr\u00fche Hilfen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 172,
+        "variable_name": "koop28",
+        "variable_text": "Kooperation mit - Elterngeldstelle",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 173,
+        "variable_name": "weiter01",
+        "variable_text": "Weitervermittlung an - Fachteammitglieder",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 174,
+        "variable_name": "weiter02",
+        "variable_text": "Weitervermittlung an - \u00c4rztliche/Psychotherapeutische Praxis",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 175,
+        "variable_name": "weiter03",
+        "variable_text": "Weitervermittlung an - Behindertenhilfe",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 176,
+        "variable_name": "weiter04",
+        "variable_text": "Weitervermittlung an - Hebammen/Geburtsvorbereitung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 177,
+        "variable_name": "weiter05",
+        "variable_text": "Weitervermittlung an - Krankenhaus/Fachklinik",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 178,
+        "variable_name": "weiter06",
+        "variable_text": "Weitervermittlung an - Hilfen zur Erziehung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 179,
+        "variable_name": "weiter07",
+        "variable_text": "Weitervermittlung an - Ehe-/Familien-/Lebensberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 180,
+        "variable_name": "weiter08",
+        "variable_text": "Weitervermittlung an - Migrationsdienst",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 181,
+        "variable_name": "weiter09",
+        "variable_text": "Weitervermittlung an - Allgemeine Sozialberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 182,
+        "variable_name": "weiter10",
+        "variable_text": "Weitervermittlung an - Schuldnerberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 183,
+        "variable_name": "weiter11",
+        "variable_text": "Weitervermittlung an - Frauenhaus",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 184,
+        "variable_name": "weiter12",
+        "variable_text": "Weitervermittlung an - Kinderbetreuung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 185,
+        "variable_name": "weiter13",
+        "variable_text": "Weitervermittlung an - Adoptionsvermittlung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 186,
+        "variable_name": "weiter14",
+        "variable_text": "Weitervermittlung an - Familienpflege, hauswirtschaftliche Hilfen, SPFH",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 187,
+        "variable_name": "weiter15",
+        "variable_text": "Weitervermittlung an - Ehrenamtliche / Freiwilligenarbeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 188,
+        "variable_name": "weiter16",
+        "variable_text": "Weitervermittlung an - Pfarrgemeinde",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 189,
+        "variable_name": "weiter17",
+        "variable_text": "Weitervermittlung an - Gesundheitsamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 190,
+        "variable_name": "weiter18",
+        "variable_text": "Weitervermittlung an - Jugendamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 191,
+        "variable_name": "weiter19",
+        "variable_text": "Weitervermittlung an - Agentur f\u00fcr Arbeit",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 192,
+        "variable_name": "weiter20",
+        "variable_text": "Weitervermittlung an - Jobcenter / ARGE",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 193,
+        "variable_name": "weiter21",
+        "variable_text": "Weitervermittlung an - Sozialamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 194,
+        "variable_name": "weiter22",
+        "variable_text": "Weitervermittlung an - Wohnungsamt",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 195,
+        "variable_name": "weiter23",
+        "variable_text": "Weitervermittlung an - Selbsthilfe/Selbstorgansierte Gruppen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 196,
+        "variable_name": "weiter24",
+        "variable_text": "Weitervermittlung an - Andere Schwangerschaftsberatungsstelle",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 197,
+        "variable_name": "weiter25",
+        "variable_text": "Weitervermittlung an - Andere/r Fachdienst/e",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 198,
+        "variable_name": "weiter26",
+        "variable_text": "Weitervermittlung an - Familienhebammen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 199,
+        "variable_name": "weiter27",
+        "variable_text": "Weitervermittlung an - Angebote Fr\u00fche Hilfen",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 200,
+        "variable_name": "weiter28",
+        "variable_text": "Weitervermittlung an - Elterngeldstelle",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 201,
+        "variable_name": "kontalle",
+        "variable_text": "Anzahl der Kontakte",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    },
+    {
+        "position": 202,
+        "variable_name": "betdau",
+        "variable_text": "Dauer der Beratung in Tagen",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern1"
+    }
+]

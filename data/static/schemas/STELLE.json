@@ -1,0 +1,499 @@
+[
+    {
+        "position": 1,
+        "variable_name": "tsnr",
+        "variable_text": "Teilstellennummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 2,
+        "variable_name": "ename",
+        "variable_text": "Einrichtung - Name",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 3,
+        "variable_name": "estrasse",
+        "variable_text": "Einrichtung - Stra\u00dfe, Hausnummer",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 4,
+        "variable_name": "eplz",
+        "variable_text": "Einrichtung - Postleitzahl",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 5,
+        "variable_name": "eort",
+        "variable_text": "Einrichtung - Stadt / Gemeinde",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 6,
+        "variable_name": "epost",
+        "variable_text": "Einrichtung - Postfach",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 7,
+        "variable_name": "etel",
+        "variable_text": "Einrichtung - Telefon",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 8,
+        "variable_name": "efax",
+        "variable_text": "Einrichtung - Fax",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 9,
+        "variable_name": "email",
+        "variable_text": "Einrichtung - E-mail-Adresse",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 10,
+        "variable_name": "eweb",
+        "variable_text": "Einrichtung - WEB-Adresse",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 11,
+        "variable_name": "eperson",
+        "variable_text": "Einrichtung - Ansprechpartner/in",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 12,
+        "variable_name": "ecode",
+        "variable_text": "Einrichtungscode",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 13,
+        "variable_name": "everband",
+        "variable_text": "Tr\u00e4ger",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "CV"
+            },
+            {
+                "value": "2",
+                "text": "SKF"
+            },
+            {
+                "value": "3",
+                "text": "SKFM"
+            },
+            {
+                "value": "4",
+                "text": "andere"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 14,
+        "variable_name": "estruktur1",
+        "variable_text": "Struktur der Beratungsstelle - Anzahl Standorte mit mehr als 30 Wochenstunden Pr\u00e4senzzeit",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "9",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "stelle"
+    },
+    {
+        "position": 15,
+        "variable_name": "estruktur2",
+        "variable_text": "Struktur der Beratungsstelle - Anzahl Standorte mit 15 bis 30 Wochenstunden Pr\u00e4senzzeit",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "9",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "stelle"
+    },
+    {
+        "position": 16,
+        "variable_name": "estruktur3",
+        "variable_text": "Struktur der Beratungsstelle - Anzahl Standorte mit weniger als 15 Wochenstunden Pr\u00e4senzzeit",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "9",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "stelle"
+    },
+    {
+        "position": 17,
+        "variable_name": "estruktur4",
+        "variable_text": "Struktur des Einzugsgebietes - Einzugsgebietes",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "nan"
+            },
+            {
+                "value": "1",
+                "text": "l\u00e4ndlich"
+            },
+            {
+                "value": "2",
+                "text": "st\u00e4dtisch"
+            },
+            {
+                "value": "3",
+                "text": "Mischform"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 18,
+        "variable_name": "eoffen1",
+        "variable_text": "Grunds\u00e4tzliche Erreichbarkeit - Werktage pro Woche",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "6",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "stelle"
+    },
+    {
+        "position": 19,
+        "variable_name": "eoffen2",
+        "variable_text": "Erreichbarkeit - Regelm\u00e4\u00dfige offene Sprechstunde",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "nan"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 20,
+        "variable_name": "eoffen3",
+        "variable_text": "Erreichbarkeit - Barrierefreier Zugang",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            },
+            {
+                "value": "3",
+                "text": "teilweise"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 21,
+        "variable_name": "emitarb1",
+        "variable_text": "Festangestellte Mitarbeiter in Beratung (Anzahl) - in Beratung t\u00e4tige Sozialarbeiter/innen, Sozialp\u00e4dagog/inn/en",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 22,
+        "variable_name": "emitarb2",
+        "variable_text": "Besetzter Personalstellenumfang in Beratung - in Beratung t\u00e4tige Sozialarbeiter/innen, Sozialp\u00e4dagog/inn/en",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "99.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 23,
+        "variable_name": "emitarb3",
+        "variable_text": "Festangestellte Mitarbeiter in Beratung (Anzahl) - in Beratung t\u00e4tige sonstige Berufsgruppen",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 24,
+        "variable_name": "emitarb4",
+        "variable_text": "Besetzter Personalstellenumfang in Beratung - in Beratung t\u00e4tige sonstige Berufsgruppen",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "99.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 25,
+        "variable_name": "emitarb5",
+        "variable_text": "Festangestellte Mitarbeiter (Anzahl) - B\u00fcro-/Verwaltungspersonal",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 26,
+        "variable_name": "emitarb6",
+        "variable_text": "Besetzter Personalstellenumfang - B\u00fcro-/Verwaltungspersonal",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "99.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 27,
+        "variable_name": "efach1",
+        "variable_text": "Besetzung des Fachteams - \u00c4rztin/Arzt",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "stelle"
+    },
+    {
+        "position": 28,
+        "variable_name": "efach2",
+        "variable_text": "Besetzung des Fachteams - Jurist/in",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "stelle"
+    },
+    {
+        "position": 29,
+        "variable_name": "efach3",
+        "variable_text": "Besetzung des Fachteams - Theologin/Theologe",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "stelle"
+    },
+    {
+        "position": 30,
+        "variable_name": "efach4",
+        "variable_text": "Besetzung des Fachteams - Psychologin/e",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "stelle"
+    },
+    {
+        "position": 31,
+        "variable_name": "efach5",
+        "variable_text": "Besetzung des Fachteams - sonstige Berufsgruppe",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "stelle"
+    },
+    {
+        "position": 32,
+        "variable_name": "efort01",
+        "variable_text": "Anzahl der Mitarbeiter - in regelm\u00e4\u00dfiger Supervision",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    },
+    {
+        "position": 33,
+        "variable_name": "efort02",
+        "variable_text": "Anzahl der Mitarbeiter - mit Zusatzqualifikation in der Schwangerschaftsberatung",
+        "value_type": "integer",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "stelle"
+    }
+]

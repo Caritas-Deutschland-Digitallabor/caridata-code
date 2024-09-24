@@ -1,0 +1,30 @@
+%{ for host in hosts ~} ${host} %{ endfor ~} {
+
+       # Sitewide config, should not be necessary to change
+       log
+       encode gzip
+
+       header {
+              -Server
+       }
+
+
+       # Project-specific config, should be auto-filled by the project via terraform variables
+       %{ if length(basic_auth) > 0 }
+       basicauth {
+              %{ for user, password in basic_auth }${user} ${password}
+              %{ endfor ~}
+       }
+       %{ else }%{ endif }
+
+       handle {
+              rewrite * {path}
+              reverse_proxy http://127.0.0.1:${docker_port_frontend}
+       }
+
+       handle_path /api/* {
+              rewrite * {path}
+              reverse_proxy http://127.0.0.1:${docker_port_api}
+
+       }
+}

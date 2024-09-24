@@ -1,0 +1,2869 @@
+[
+    {
+        "position": 1,
+        "variable_name": "tsnr",
+        "variable_text": "Teilstellennummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 2,
+        "variable_name": "fallnr",
+        "variable_text": "Fallnummer",
+        "value_type": "string",
+        "value_from": "1",
+        "value_to": "99999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 3,
+        "variable_name": "lzrnr",
+        "variable_text": "Leistungszeitrahmen - Nummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "5",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 4,
+        "variable_name": "betrnr",
+        "variable_text": "Beratungsepisodennummer",
+        "value_type": "string",
+        "value_from": "1",
+        "value_to": "99",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 5,
+        "variable_name": "artkont",
+        "variable_text": "Leistungszeitrahmen - Art des Erstkontakts",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "telefonisch"
+            },
+            {
+                "value": "2",
+                "text": "pers\u00f6nlich"
+            },
+            {
+                "value": "3",
+                "text": "e-mail, brieflich"
+            },
+            {
+                "value": "4",
+                "text": "Online-Chat"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 6,
+        "variable_name": "online1",
+        "variable_text": "Online-Beratung - Chat",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 7,
+        "variable_name": "online2",
+        "variable_text": "Online-Beratung - Mail",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 8,
+        "variable_name": "nation1",
+        "variable_text": "Staatsangeh\u00f6rigkeit",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 9,
+        "variable_name": "famend",
+        "variable_text": "Familienstand (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "ledig"
+            },
+            {
+                "value": "2",
+                "text": "verheiratet, zusammenlebend"
+            },
+            {
+                "value": "3",
+                "text": "verheiratet, getrennt lebend"
+            },
+            {
+                "value": "4",
+                "text": "eingetragene Lebenspartnerschaft"
+            },
+            {
+                "value": "5",
+                "text": "geschieden"
+            },
+            {
+                "value": "6",
+                "text": "verwitwet"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 10,
+        "variable_name": "famjah",
+        "variable_text": "Datum des Familienstandes",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 11,
+        "variable_name": "lbabeg1",
+        "variable_text": "Lebenssituation (Beginn) - alleinlebend",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 12,
+        "variable_name": "lbabeg2",
+        "variable_text": "Lebenssituation (Beginn) - mit Partner",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 13,
+        "variable_name": "lbabeg3",
+        "variable_text": "Lebenssituation (Beginn) - mit Kind(ern)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 14,
+        "variable_name": "lbabeg4",
+        "variable_text": "Lebenssituation (Beginn) - mit Eltern",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 15,
+        "variable_name": "lbabeg5",
+        "variable_text": "Lebenssituation (Beginn) - mit Freunden/ Bekannten / sonstigen Personen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 16,
+        "variable_name": "lbaend1",
+        "variable_text": "Lebenssituation (Ende) - alleinlebend",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 17,
+        "variable_name": "lbaend2",
+        "variable_text": "Lebenssituation (Ende) - mit Partner/in",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 18,
+        "variable_name": "lbaend3",
+        "variable_text": "Lebenssituation (Ende) - mit Kind(ern)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 19,
+        "variable_name": "lbaend4",
+        "variable_text": "Lebenssituation (Ende) - mit Eltern",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 20,
+        "variable_name": "lbaend5",
+        "variable_text": "Lebenssituation (Ende) - mit Freunden / Bekannten / sonstigen Personen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 21,
+        "variable_name": "parend",
+        "variable_text": "Partnerbeziehung (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 22,
+        "variable_name": "gebvoraus",
+        "variable_text": "voraussichtlicher Geburtstermin",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 23,
+        "variable_name": "gebtats",
+        "variable_text": "tats\u00e4chlicher Geburtstermin",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 24,
+        "variable_name": "urkunde",
+        "variable_text": "Geburtsurkunde vorgelegt",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 25,
+        "variable_name": "swochgeb",
+        "variable_text": "Schwangerschaftswoche bei Geburt",
+        "value_type": "integer",
+        "value_from": "20",
+        "value_to": "45",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 26,
+        "variable_name": "aufentd",
+        "variable_text": "Aufenthalt befristet bis",
+        "value_type": "date",
+        "value_from": "01.01.1900",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 27,
+        "variable_name": "erwparbeg",
+        "variable_text": "Erwerbs-/Berufsstatus Partner/in (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Auszubildende/Auszubildender"
+            },
+            {
+                "value": "2",
+                "text": "Arbeiter/Arbeiterin"
+            },
+            {
+                "value": "3",
+                "text": "Angestellte/Angestellter"
+            },
+            {
+                "value": "4",
+                "text": "Beamtin/Beamter"
+            },
+            {
+                "value": "5",
+                "text": "Selbst\u00e4ndige/r, Freiberufler/in"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Erwerbsperson"
+            },
+            {
+                "value": "7",
+                "text": "Sch\u00fcler/Sch\u00fclerin, Student/Studentin"
+            },
+            {
+                "value": "8",
+                "text": "Hausfrau/Hausmann"
+            },
+            {
+                "value": "9",
+                "text": "Rentnerin/Rentner"
+            },
+            {
+                "value": "10",
+                "text": "sonstige Nichterwerbspersonen"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 28,
+        "variable_name": "erwklend",
+        "variable_text": "Erwerbs-/Berufsstatus Klient/in (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Auszubildende/Auszubildender"
+            },
+            {
+                "value": "2",
+                "text": "Arbeiter/Arbeiterin"
+            },
+            {
+                "value": "3",
+                "text": "Angestellte/Angestellter"
+            },
+            {
+                "value": "4",
+                "text": "Beamtin/Beamter"
+            },
+            {
+                "value": "5",
+                "text": "Selbst\u00e4ndige/r, Freiberufler/in"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Erwerbsperson (u.a. Arbeitslose)"
+            },
+            {
+                "value": "7",
+                "text": "Sch\u00fcler/Sch\u00fclerin, Student/Studentin"
+            },
+            {
+                "value": "8",
+                "text": "Hausfrau/Hausmann"
+            },
+            {
+                "value": "9",
+                "text": "Rentnerin/Rentner"
+            },
+            {
+                "value": "10",
+                "text": "sonst. Nichterwerbspersonen"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 29,
+        "variable_name": "erwparend",
+        "variable_text": "Erwerbs-/Berufsstatus Partner/in (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Auszubildende/Auszubildender"
+            },
+            {
+                "value": "2",
+                "text": "Arbeiter/Arbeiterin"
+            },
+            {
+                "value": "3",
+                "text": "Angestellte/Angestellter"
+            },
+            {
+                "value": "4",
+                "text": "Beamtin/Beamter"
+            },
+            {
+                "value": "5",
+                "text": "Selbst\u00e4ndige/r, Freiberufler/in"
+            },
+            {
+                "value": "6",
+                "text": "Sonstige Erwerbsperson (u.a. Arbeitslose)"
+            },
+            {
+                "value": "7",
+                "text": "Sch\u00fcler/Sch\u00fclerin, Student/Studentin"
+            },
+            {
+                "value": "8",
+                "text": "Hausfrau/Hausmann"
+            },
+            {
+                "value": "9",
+                "text": "Rentnerin/Rentner"
+            },
+            {
+                "value": "10",
+                "text": "sonst. Nichterwerbspersonen"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 30,
+        "variable_name": "besklend",
+        "variable_text": "Besch\u00e4ftigungsverh\u00e4ltnis Klient/in (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Vollzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "2",
+                "text": "Teilzeitbesch\u00e4ftigung (ohne Elternzeit)"
+            },
+            {
+                "value": "3",
+                "text": "besch\u00e4ftigungslos mit Arbeitsverpflichtung"
+            },
+            {
+                "value": "4",
+                "text": "Elternzeit ohne Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "5",
+                "text": "Elternzeit mit Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "6",
+                "text": "besch\u00e4ftigungslos ohne Arbeitsverpflichtung"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 31,
+        "variable_name": "besparbeg",
+        "variable_text": "Besch\u00e4ftigungsverh\u00e4ltnis Partner/in (Beginn)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Vollzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "2",
+                "text": "Teilzeitbesch\u00e4ftigung (ohne Elternzeit)"
+            },
+            {
+                "value": "3",
+                "text": "besch\u00e4ftigungslos mit Arbeitsverpflichtung"
+            },
+            {
+                "value": "4",
+                "text": "Elternzeit ohne Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "5",
+                "text": "Elternzeit mit Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "6",
+                "text": "besch\u00e4ftigungslos ohne Arbeitsverpflichtung"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 32,
+        "variable_name": "besparend",
+        "variable_text": "Besch\u00e4ftigungsverh\u00e4ltnis Partner/in (Ende)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Vollzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "2",
+                "text": "Teilzeitbesch\u00e4ftigung (ohne Elternzeit)"
+            },
+            {
+                "value": "3",
+                "text": "besch\u00e4ftigungslos mit Arbeitsverpflichtung"
+            },
+            {
+                "value": "4",
+                "text": "Elternzeit ohne Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "5",
+                "text": "Elternzeit mit Teilzeitbesch\u00e4ftigung"
+            },
+            {
+                "value": "6",
+                "text": "besch\u00e4ftigungslos ohne Arbeitsverpflichtung"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 33,
+        "variable_name": "eksklv01",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 34,
+        "variable_name": "eksklv02",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 35,
+        "variable_name": "eksklv03",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Arbeitslosengeld I",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 36,
+        "variable_name": "eksklv04",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Leistungen nach B\u00fcrgergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 37,
+        "variable_name": "eksklv05",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Leistungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 38,
+        "variable_name": "eksklv06",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Leistungen nach AsylbLG",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 39,
+        "variable_name": "eksklv07",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Leistungen nach SGB XII",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 40,
+        "variable_name": "eksklv08",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Wohngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 41,
+        "variable_name": "eksklv09",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Kindergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 42,
+        "variable_name": "eksklv10",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Kinderzuschlag",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 43,
+        "variable_name": "eksklv11",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Betreuungsgeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 44,
+        "variable_name": "eksklv12",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Elterngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 45,
+        "variable_name": "eksklv13",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Rente/Pension",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 46,
+        "variable_name": "eksklv14",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Baf\u00f6G/Stipendien",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 47,
+        "variable_name": "eksklv15",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Unterhaltsleistungen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 48,
+        "variable_name": "eksklv16",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 49,
+        "variable_name": "eksklv17",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - sonstige Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 50,
+        "variable_name": "eksklv18",
+        "variable_text": "Einkommensart Klient/in (Verlauf) - keine eigenen Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 51,
+        "variable_name": "ekspav01",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 52,
+        "variable_name": "ekspav02",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 53,
+        "variable_name": "ekspav03",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Arbeitslosengeld I",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 54,
+        "variable_name": "ekspav04",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Leistungen nach B\u00fcrgergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 55,
+        "variable_name": "ekspav05",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Leistungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 56,
+        "variable_name": "ekspav06",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Leistungen nach AsylbLG",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 57,
+        "variable_name": "ekspav07",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Leistungen nach SGB XII",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 58,
+        "variable_name": "ekspav08",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Wohngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 59,
+        "variable_name": "ekspav09",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Kindergeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 60,
+        "variable_name": "ekspav10",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Kinderzuschlag",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 61,
+        "variable_name": "ekspav11",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Betreuungsgeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 62,
+        "variable_name": "ekspav12",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Elterngeld",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 63,
+        "variable_name": "ekspav13",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Rente/Pension",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 64,
+        "variable_name": "ekspav14",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Baf\u00f6G/Stipendien",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 65,
+        "variable_name": "ekspav15",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Unterhaltsleistungen",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 66,
+        "variable_name": "ekspav16",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 67,
+        "variable_name": "ekspav17",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - sonstige Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 68,
+        "variable_name": "ekspav18",
+        "variable_text": "Einkommensart Partner/in (Verlauf) - keine eigenen Eink\u00fcnfte",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "nein"
+            },
+            {
+                "value": "2",
+                "text": "ja"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 69,
+        "variable_name": "ekklv01",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 70,
+        "variable_name": "ekklv02",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 71,
+        "variable_name": "ekklv03",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Arbeitslosengeld I",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 72,
+        "variable_name": "ekklv04",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Leistungen nach B\u00fcrgergeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 73,
+        "variable_name": "ekklv05",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Leisungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 74,
+        "variable_name": "ekklv06",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Leistungen nach AsylbLG",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 75,
+        "variable_name": "ekklv07",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Leistungen nach SGB XII",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 76,
+        "variable_name": "ekklv08",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Wohngeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 77,
+        "variable_name": "ekklv09",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Kindergeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 78,
+        "variable_name": "ekklv10",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Kinderzuschlag",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 79,
+        "variable_name": "ekklv11",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Betreuungsgeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 80,
+        "variable_name": "ekklv12",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Elterngeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 81,
+        "variable_name": "ekklv13",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Rente/Pension",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 82,
+        "variable_name": "ekklv14",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Baf\u00f6G/Stipendien",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 83,
+        "variable_name": "ekklv15",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Unterhaltsleistungen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 84,
+        "variable_name": "ekklv16",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 85,
+        "variable_name": "ekklv17",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - sonstige Eink\u00fcnfte",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 86,
+        "variable_name": "ekklvg",
+        "variable_text": "H\u00f6he Nettoeinkommen Klient/in - Gesamteinkommen Klient/in",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 87,
+        "variable_name": "ekpav01",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Erwerbst\u00e4tigkeit (unselbst\u00e4ndig)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 88,
+        "variable_name": "ekpav02",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Erwerbst\u00e4tigkeit (selbst\u00e4ndig)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 89,
+        "variable_name": "ekpav03",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Arbeitslosengeld I",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 90,
+        "variable_name": "ekpav04",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Leistungen nach B\u00fcrgergeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 91,
+        "variable_name": "ekpav05",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Leisungen nach dem Arbeitsf\u00f6rderungsgesetz",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 92,
+        "variable_name": "ekpav06",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Leistungen nach AsylbLG",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 93,
+        "variable_name": "ekpav07",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Leistungen nach SGB XII",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 94,
+        "variable_name": "ekpav08",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Wohngeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 95,
+        "variable_name": "ekpav09",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Kindergeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 96,
+        "variable_name": "ekpav10",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Kinderzuschlag",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 97,
+        "variable_name": "ekpav11",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Betreuungsgeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 98,
+        "variable_name": "ekpav12",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Elterngeld",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 99,
+        "variable_name": "ekpav13",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Rente/Pension",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 100,
+        "variable_name": "ekpav14",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Baf\u00f6G/Stipendien",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 101,
+        "variable_name": "ekpav15",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Unterhaltsleistungen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 102,
+        "variable_name": "ekpav16",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Leistungen Kranken-/Pflegeversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 103,
+        "variable_name": "ekpav17",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - sonstige Eink\u00fcnfte",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 104,
+        "variable_name": "ekpavg",
+        "variable_text": "H\u00f6he Nettoeinkommen Partner/in - Gesamteinkommen Partner/in",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 105,
+        "variable_name": "ekkpvg",
+        "variable_text": "Haushaltsnettoeinkommen - insgesamt",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 106,
+        "variable_name": "ha01",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kaltmiete",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 107,
+        "variable_name": "ha02",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Zins/Tilgung f\u00fcr selbstbewohntes Eigenheim",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 108,
+        "variable_name": "ha03",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Nebenkosten (M\u00fcllabfuhr, Kanalgeb\u00fchren, etc.)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 109,
+        "variable_name": "ha04",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Heizung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 110,
+        "variable_name": "ha05",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Energie (Gas, Wasser, Strom)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 111,
+        "variable_name": "ha06",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Unterhaltsverpflichungen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 112,
+        "variable_name": "ha07",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Aufwendungen f\u00fcr Kinder",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 113,
+        "variable_name": "ha08",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Private Haftpflichtversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 114,
+        "variable_name": "ha09",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Unfallversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 115,
+        "variable_name": "ha10",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Freiwillige Krankenversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 116,
+        "variable_name": "ha11",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Lebensversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 117,
+        "variable_name": "ha12",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Hausratversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 118,
+        "variable_name": "ha13",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Freiwillige Rentenversicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 119,
+        "variable_name": "ha14",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Sonstige Versicherung (ohne KFZ)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 120,
+        "variable_name": "ha15",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Fahrkosten zur Arbeit (Benzin, \u00d6PNV)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 121,
+        "variable_name": "ha16",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - KFZ-Versicherung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 122,
+        "variable_name": "ha17",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - KFZ-Steuer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 123,
+        "variable_name": "ha18",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - KFZ-Rate",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 124,
+        "variable_name": "ha19",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Sonstige Belastungen (ohne Kredite)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 125,
+        "variable_name": "ha20",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredit 1",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 126,
+        "variable_name": "ha21",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredit 2",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 127,
+        "variable_name": "ha22",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredit 3",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 128,
+        "variable_name": "ha23",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredit 4",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 129,
+        "variable_name": "ha24",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredit 5",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 130,
+        "variable_name": "hg",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Gesamtbelastung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 131,
+        "variable_name": "hg1",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - ohne Kredite",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 132,
+        "variable_name": "hg2",
+        "variable_text": "Regelm\u00e4\u00dfige Haushaltsausgaben - Kredite",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 133,
+        "variable_name": "hauseink",
+        "variable_text": "Verf\u00fcgbares Haushaltseinkommen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 134,
+        "variable_name": "antreu1",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus Bundesstiftung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 135,
+        "variable_name": "antreu2",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus Kommunalem Fonds",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 136,
+        "variable_name": "antreu3",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus Bisch\u00f6flichem Fonds",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 137,
+        "variable_name": "antreu4",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus Spenden",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 138,
+        "variable_name": "antreu5",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus sonstigen Quellen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 139,
+        "variable_name": "antreu6",
+        "variable_text": "H\u00f6he der beantragten Mittel - aus (spezifischer) Landesstiftung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 140,
+        "variable_name": "antreug",
+        "variable_text": "H\u00f6he der beantragten Mittel - Gesamtbetrag",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 141,
+        "variable_name": "beweu1",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus Bundesstiftung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 142,
+        "variable_name": "beweu2",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus Kommunalem Fonds",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 143,
+        "variable_name": "beweu3",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus Bisch\u00f6flichem Fonds",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 144,
+        "variable_name": "beweu4",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus Spenden",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 145,
+        "variable_name": "beweu5",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus sonstigen Quellen",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 146,
+        "variable_name": "beweu6",
+        "variable_text": "H\u00f6he der bewilligten Mittel - aus (spezifischer) Landesstiftung",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 147,
+        "variable_name": "beweug",
+        "variable_text": "H\u00f6he der bewilligten Mittel - Gesamtbetrag",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbkern2"
+    },
+    {
+        "position": 148,
+        "variable_name": "artend",
+        "variable_text": "Art der Beendigung",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Planm\u00e4\u00dfig nach Beratg./Hilfeplan"
+            },
+            {
+                "value": "2",
+                "text": "Planm\u00e4\u00dfig durch Vermittlung"
+            },
+            {
+                "value": "3",
+                "text": "Abbruch durch Klient/in"
+            },
+            {
+                "value": "4",
+                "text": "Sonstiges"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 149,
+        "variable_name": "bundesausw",
+        "variable_text": "Nicht in Bundesauswertung",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    },
+    {
+        "position": 150,
+        "variable_name": "faktor",
+        "variable_text": "Hessischer Fallfaktor",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": null,
+        "source": "sbkern2"
+    }
+]

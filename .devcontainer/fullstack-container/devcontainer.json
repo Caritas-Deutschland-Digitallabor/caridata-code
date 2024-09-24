@@ -1,0 +1,57 @@
+{
+  "name": "fullstack-container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "fullstack",
+  "workspaceFolder": "/workspace",
+  // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+  // "features": {},
+  // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
+    "db:5432"
+  ],
+  "portsAttributes": {
+    "db:5432": {
+      "label": "postgres"
+    }
+  },
+  // 👇 Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "",
+  // 👇 Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "redhat.vscode-yaml",
+        "redhat.ansible",
+        "tamasfe.even-better-toml",
+        "Gruntfuggly.todo-tree",
+        "ms-vscode.makefile-tools@prerelease",
+        "vue.volar",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "helixquar.randomeverything",
+        "bierner.markdown-mermaid",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "vscode",
+      "upgradePackages": "true"
+    },
+    "ghcr.io/devcontainers-contrib/features/mypy:2": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-contrib/features/ruff:1": {
+      "version": "latest"
+    },
+    "ghcr.io/itsmechlark/features/postgresql:1": {
+      "version": "latest"
+    }
+  },
+  "containerUser": "vscode"
+}

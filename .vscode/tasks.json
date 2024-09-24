@@ -1,0 +1,71 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm: dev - frontend",
+			"linux": {
+				"command": "",
+				"args": [
+					"sleep",
+					"2",
+					"&&",
+					"npm",
+					"run",
+					"dev"
+				],
+				"options": {
+					"cwd": "${workspaceFolder}/frontend",
+					"shell": {
+						"executable": "/bin/bash",
+						"args": [
+							"-c"
+						]
+					}
+				},
+			},
+			"presentation": {
+				"reveal": "always",
+				"group": "startup",
+				"panel": "new"
+			},
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "FastAPI: run - backend",
+			"linux": {
+				"command": "",
+				"args": [
+					"sleep",
+					"2",
+					"&&",
+					"poetry",
+					"run",
+					"uvicorn",
+					"api:app",
+					"--reload"
+				],
+				"options": {
+					"cwd": "${workspaceFolder}/backend/src",
+					"shell": {
+						"executable": "/bin/bash",
+						"args": [
+							"-c"
+						]
+					}
+				},
+			},
+			"presentation": {
+				"reveal": "always",
+				"group": "startup",
+				"panel": "new"
+			},
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}

@@ -1,0 +1,1118 @@
+[
+    {
+        "id": "a572ccb3-540c-4e3b-bda3-11fd1223342d",
+        "description": "Count gefiltert nach Episodennummer 1 und distinct",
+        "filter": {
+            "operator": null,
+            "conditions": [
+                {
+                    "field": "betrnr",
+                    "condition": "=",
+                    "value": "1"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "817abf54-6cbf-4da3-b447-4581aa56614d",
+        "description": "Count ohne Filter mit distinct",
+        "filter": null,
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "6696a1cd-4edb-4479-9b8c-943d10c42720",
+        "description": "Count ohne Filter ohne distinct",
+        "filter": null,
+        "is_distinct": false,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "3e75a25e-65b8-43ef-ad26-e57a3cf4f44c",
+        "description": "Count gefiltert nach alle antrag1-6 is not 2 mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "antrag1",
+                    "condition": "!=",
+                    "value": "2"
+                },
+                {
+                    "field": "antrag2",
+                    "condition": "!=",
+                    "value": "2"
+                },
+                {
+                    "field": "antrag3",
+                    "condition": "!=",
+                    "value": "2"
+                },
+                {
+                    "field": "antrag4",
+                    "condition": "!=",
+                    "value": "2"
+                },
+                {
+                    "field": "antrag5",
+                    "condition": "!=",
+                    "value": "2"
+                },
+                {
+                    "field": "antrag6",
+                    "condition": "!=",
+                    "value": "2"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b45",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop01",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b46",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop02",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b47",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop03",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b48",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop04",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b49",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop05",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b50",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop06",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b51",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop07",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b52",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop08",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b53",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop09",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b54",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop10",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b55",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop11",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b56",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop12",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b57",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop13",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b58",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop14",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b59",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop15",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b60",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop16",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b61",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop17",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b62",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop18",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b63",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop19",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b64",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop20",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b65",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop21",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b66",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop22",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b67",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop23",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b68",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop24",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b69",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop25",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b70",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop26",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b71",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop27",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "9ce7eca1-9b7b-4d6b-96b2-3e557ace7b72",
+        "description": "Count gefiltert nach alle koop01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "koop28",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a858",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter01",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a859",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter02",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a860",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter03",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a861",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter04",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a862",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter05",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a863",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter06",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a864",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter07",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a865",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter08",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a866",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter09",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a867",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter10",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a868",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter11",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a869",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter12",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a870",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter13",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a871",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter14",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a872",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter15",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a873",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter16",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a874",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter17",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a875",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter18",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a876",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter19",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a877",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter20",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a878",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter21",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a879",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter22",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a880",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter23",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a881",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter24",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a882",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter25",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a883",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter26",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a884",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter27",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "499777b8-6417-45a0-a3f9-5f00e1f4a885",
+        "description": "Count gefiltert nach alle weiter01-28 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "weiter28",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "4427aae4-61eb-483e-9307-167d80a1cabf",
+        "description": "Count gefiltert nach alle befor01-04 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "berfor01",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "berfor02",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "berfor03",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "berfor04",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    },
+    {
+        "id": "082d0514-9974-488c-b89f-020a65491ca3",
+        "description": "Count gefiltert nach alle hilfe01-09 is null mit distinct",
+        "filter": {
+            "operator": "AND",
+            "conditions": [
+                {
+                    "field": "hilfe01",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe02",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe03",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe04",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe05",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe06",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe07",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe08",
+                    "condition": "IS",
+                    "value": "NULL"
+                },
+                {
+                    "field": "hilfe09",
+                    "condition": "IS",
+                    "value": "NULL"
+                }
+            ]
+        },
+        "is_distinct": true,
+        "aggregation_type": "COUNT",
+        "deprecated_at": null
+    }
+]

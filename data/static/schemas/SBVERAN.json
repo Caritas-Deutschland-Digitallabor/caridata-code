@@ -1,0 +1,835 @@
+[
+    {
+        "position": 1,
+        "variable_name": "tsnr",
+        "variable_text": "Teilstellennummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 2,
+        "variable_name": "mastit",
+        "variable_text": "Ma\u00dfnahme(nreihe) - Titel",
+        "value_type": "string",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 3,
+        "variable_name": "masnr",
+        "variable_text": "Ma\u00dfnahme(nreihe) - Identifikations-Nummer",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "99999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 4,
+        "variable_name": "maslfdnr",
+        "variable_text": "Ma\u00dfnahme - Laufende Nummer (bei Einzelma\u00dfnahme immer 1)",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 5,
+        "variable_name": "masdat",
+        "variable_text": "Ma\u00dfnahme - Datum der Durchf\u00fchrung",
+        "value_type": "date",
+        "value_from": "01.01.2000",
+        "value_to": "31.12.2099",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 6,
+        "variable_name": "mastyp",
+        "variable_text": "Ma\u00dfnahmetyp",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Einzelma\u00dfnahme offen"
+            },
+            {
+                "value": "2",
+                "text": "Einzelma\u00dfnahme geschlossen"
+            },
+            {
+                "value": "3",
+                "text": "Ma\u00dfnahmenreihe offen"
+            },
+            {
+                "value": "4",
+                "text": "Ma\u00dfnahmenreihe geschlossen"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 7,
+        "variable_name": "masebene",
+        "variable_text": "Ma\u00dfnahmenebene",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Klientenebene"
+            },
+            {
+                "value": "2",
+                "text": "Nicht-Klientenbezogene Ebene - \u00d6ffentlichkeitsarbeit"
+            },
+            {
+                "value": "3",
+                "text": "Nicht-Klientenbezogene Ebene - Kooperation/Vernetzung"
+            },
+            {
+                "value": "4",
+                "text": "Nicht-Klientenbezogene Ebene - Qualifizierung"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 8,
+        "variable_name": "maskat",
+        "variable_text": "Ma\u00dfnahmenkatalog",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Sexualp\u00e4dagogik"
+            },
+            {
+                "value": "2",
+                "text": "Schwangerschaft und Geburt"
+            },
+            {
+                "value": "3",
+                "text": "PND"
+            },
+            {
+                "value": "4",
+                "text": "Fr\u00fche Hilfen"
+            },
+            {
+                "value": "5",
+                "text": "Armutspr\u00e4vention und Existenzsicherung"
+            },
+            {
+                "value": "6",
+                "text": "Alleinerziehung"
+            },
+            {
+                "value": "7",
+                "text": "Fehl- und Totgeburt"
+            },
+            {
+                "value": "8",
+                "text": "Sonstiges"
+            },
+            {
+                "value": "9",
+                "text": "Schwerpunkt der Einrichtung"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": true,
+        "missing": "nicht m\u00f6glich",
+        "source": "sbveran"
+    },
+    {
+        "position": 9,
+        "variable_name": "masart",
+        "variable_text": "Ma\u00dfnahmeart",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Fachgespr\u00e4ch/Gremium"
+            },
+            {
+                "value": "2",
+                "text": "Infoveranstaltung"
+            },
+            {
+                "value": "3",
+                "text": "Projekt"
+            },
+            {
+                "value": "4",
+                "text": "Schulung/Fortbildung"
+            },
+            {
+                "value": "5",
+                "text": "Unterrichtseinheit"
+            },
+            {
+                "value": "6",
+                "text": "Gruppenangebot"
+            },
+            {
+                "value": "7",
+                "text": "Sonstiges"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbveran"
+    },
+    {
+        "position": 10,
+        "variable_name": "zielgrup",
+        "variable_text": "Zielgruppe",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "Elementarbereich (Kita, Miniclub, etc.)"
+            },
+            {
+                "value": "2",
+                "text": "Schule"
+            },
+            {
+                "value": "3",
+                "text": "Au\u00dferschulische Jugendarbeit"
+            },
+            {
+                "value": "4",
+                "text": "(Politische) Gemeinde, Verband, Verein"
+            },
+            {
+                "value": "5",
+                "text": "Kirchengemeinde, kirchliche Einrichtung"
+            },
+            {
+                "value": "6",
+                "text": "Medizinischer Bereich"
+            },
+            {
+                "value": "7",
+                "text": "Sonstige spezifische Zielgruppe"
+            },
+            {
+                "value": "8",
+                "text": "Unspezifisch"
+            }
+        ],
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbveran"
+    },
+    {
+        "position": 11,
+        "variable_name": "zielgrup01",
+        "variable_text": "Zielgruppe Schule - Grundschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 12,
+        "variable_name": "zielgrup02",
+        "variable_text": "Zielgruppe Schule - Hauptschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 13,
+        "variable_name": "zielgrup03",
+        "variable_text": "Zielgruppe Schule - Realschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 14,
+        "variable_name": "zielgrup04",
+        "variable_text": "Zielgruppe Schule - Gymnasium",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 15,
+        "variable_name": "zielgrup05",
+        "variable_text": "Zielgruppe Schule - Gesamtschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 16,
+        "variable_name": "zielgrup06",
+        "variable_text": "Zielgruppe Schule - Berufschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 17,
+        "variable_name": "zielgrup07",
+        "variable_text": "Zielgruppe Schule - Fachschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 18,
+        "variable_name": "zielgrup08",
+        "variable_text": "Zielgruppe Schule - Hochschule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 19,
+        "variable_name": "zielgrup09",
+        "variable_text": "Zielgruppe Schule - andere Schule",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 20,
+        "variable_name": "zielgrup10",
+        "variable_text": "Zielgruppe au\u00dferschulische Jugenarbeit - katholischer Tr\u00e4ger",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 21,
+        "variable_name": "zielgrup11",
+        "variable_text": "Zielgruppe au\u00dferschulische Jugenarbeit - nicht-katholischer Tr\u00e4ger",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 22,
+        "variable_name": "zielper01",
+        "variable_text": "Zielpersonen - Kinder/Jugendliche",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 23,
+        "variable_name": "zielper02",
+        "variable_text": "Zielpersonen - (nur) Frauen/M\u00fctter",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 24,
+        "variable_name": "zielper03",
+        "variable_text": "Zielpersonen - (nur) M\u00e4nner/V\u00e4ter",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 25,
+        "variable_name": "zielper04",
+        "variable_text": "Zielpersonen - Eltern",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 26,
+        "variable_name": "zielper05",
+        "variable_text": "Zielpersonen - Alleinerziehende",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 27,
+        "variable_name": "zielper06",
+        "variable_text": "Zielpersonen - Migrant/inn/en",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 28,
+        "variable_name": "zielper07",
+        "variable_text": "Zielpersonen - Hauptamliche",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 29,
+        "variable_name": "zielper08",
+        "variable_text": "Zielpersonen - Ehrenamtliche",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 30,
+        "variable_name": "zielper09",
+        "variable_text": "Zielpersonen - unspezifisch",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 31,
+        "variable_name": "aktiv01",
+        "variable_text": "Aktivit\u00e4tsziele - Pr\u00e4sentation des Leistungsspektrums",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 32,
+        "variable_name": "aktiv02",
+        "variable_text": "Aktivit\u00e4tsziele - Erschlie\u00dfung neuer Ressourcen",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 33,
+        "variable_name": "aktiv03",
+        "variable_text": "Aktivit\u00e4tsziele - Optimierung von Hilfeleistungen",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 34,
+        "variable_name": "aktiv04",
+        "variable_text": "Aktivit\u00e4tsziele - F\u00f6rderung von Selbsthilfekr\u00e4ften",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 35,
+        "variable_name": "aktiv05",
+        "variable_text": "Aktivit\u00e4tsziele - Verbesserung der allg. Lebensqualit\u00e4t",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 36,
+        "variable_name": "aktiv06",
+        "variable_text": "Aktivit\u00e4tsziele - St\u00e4rkung des sozialen Netzes",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 37,
+        "variable_name": "aktiv07",
+        "variable_text": "Aktivit\u00e4tsziele - F\u00f6rderung von Akzeptanz/Toleranz",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 38,
+        "variable_name": "aktiv08",
+        "variable_text": "Aktivit\u00e4tsziele - Sensibilisierung der \u00d6ffentlichkeit",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 39,
+        "variable_name": "aktiv09",
+        "variable_text": "Aktivit\u00e4tsziele - F\u00f6rderung/Pflege der Arbeitsstruktur",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 40,
+        "variable_name": "aktiv10",
+        "variable_text": "Aktivit\u00e4tsziele - Kooperation und Vernetzung",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 41,
+        "variable_name": "aktiv11",
+        "variable_text": "Aktivit\u00e4tsziele - Kompetenzst\u00e4rkung bez\u00fcglich Identit\u00e4tsfindung",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 42,
+        "variable_name": "aktiv12",
+        "variable_text": "Aktivit\u00e4tsziele - Sonstige Ziele",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 43,
+        "variable_name": "organisa",
+        "variable_text": "Organisation",
+        "value_type": "categorical",
+        "value_from": null,
+        "value_to": null,
+        "categories": [
+            {
+                "value": "0",
+                "text": "keine Angaben"
+            },
+            {
+                "value": "1",
+                "text": "In Eigenregie ohne Beteiligung anderer"
+            },
+            {
+                "value": "2",
+                "text": "In Eigenregie mit Beteiligung anderer"
+            },
+            {
+                "value": "3",
+                "text": "Beteiligung bei andererem Veranstalter"
+            }
+        ],
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbveran"
+    },
+    {
+        "position": 44,
+        "variable_name": "organi01",
+        "variable_text": "Beteiligung von/bei anderen - Hauptamtliche",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 45,
+        "variable_name": "organi02",
+        "variable_text": "Beteiligung von/bei anderen - Ehrenamtliche",
+        "value_type": "boolean",
+        "value_from": null,
+        "value_to": null,
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "F",
+        "source": "sbveran"
+    },
+    {
+        "position": 46,
+        "variable_name": "zeit01",
+        "variable_text": "Zeitaufwand (Stunden) - Insgesamt",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "999.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0.00",
+        "source": "sbveran"
+    },
+    {
+        "position": 47,
+        "variable_name": "zeit02",
+        "variable_text": "Zeitaufwand (Stunden) - Durchf\u00fchrung",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "999.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0.00",
+        "source": "sbveran"
+    },
+    {
+        "position": 48,
+        "variable_name": "zeit03",
+        "variable_text": "Zeitaufwand (Stunden) - Vor- und Nachbereitung",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "999.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0.00",
+        "source": "sbveran"
+    },
+    {
+        "position": 49,
+        "variable_name": "zeit04",
+        "variable_text": "Zeitaufwand (Stunden) - Medien- und Pressearbeit",
+        "value_type": "float",
+        "value_from": "0.01",
+        "value_to": "999.99",
+        "categories": null,
+        "mandatory": false,
+        "technical_mandatory": false,
+        "missing": "0.00",
+        "source": "sbveran"
+    },
+    {
+        "position": 50,
+        "variable_name": "personen1",
+        "variable_text": "Erreichte Personen - insgesamt",
+        "value_type": "integer",
+        "value_from": "1",
+        "value_to": "9999",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "0",
+        "source": "sbveran"
+    },
+    {
+        "position": 51,
+        "variable_name": "personen2",
+        "variable_text": "Erreichte Personen - davon erstmalig im Kalenderjahr",
+        "value_type": "integer",
+        "value_from": "0",
+        "value_to": "9998",
+        "categories": null,
+        "mandatory": true,
+        "technical_mandatory": false,
+        "missing": "9999",
+        "source": "sbveran"
+    }
+]
